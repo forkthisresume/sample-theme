@@ -9,6 +9,11 @@
     <h1 class="project-name">{{ site.nome | default: site.github.repository_name }}</h1>
     <h2 class="project-tagline">{{ site.idade | default: site.github.project_tagline }}</h2>
     <p> {{ site.profissao }}</p>
+    <ul>
+        {% for linguagem in site.linguagens %}
+        <li>{{linguagem}}</li>
+        {% endfor %}
+    </ul>
 </section>
 
 <section class="main-content">

@@ -1,3 +1,7 @@
 nome: José Teles
 idade: 29
 profissao: desenvolvedor front-end
+linguagens:
+  - javascript
+  - css
+  - html
